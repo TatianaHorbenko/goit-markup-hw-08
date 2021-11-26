@@ -1,0 +1,25 @@
+.logo {
+  color: var(--logo-color);
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  @include font($fs:26px);
+  
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-right: 90px;
+}
+.logo-footer {
+  margin-bottom: 20px;
+}
+.web {
+  color: var(--accent-color);
+}
+
+
+  .logos-icon {
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }

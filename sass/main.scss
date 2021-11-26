@@ -1,0 +1,36 @@
+// UTILS
+@import "./utils/mixin";
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+//BASE
+@import "./base/common";
+
+//COMPONENTS
+@import "./components/container";
+@import "./components/logo";
+@import "./components/social";
+@import "./components/list";
+@import "./components/title";
+@import "./components/button";
+@import "./components/backdrop";
+@import "./components/modal-form";
+@import "./components/modal-button";
+@import "./components/modal";
+
+
+//LAYOUT
+@import"./layot/activity";
+@import "./layot/features";
+@import "./layot/header";
+@import "./layot/hero";
+@import "./layot/about";
+@import "./layot/team";
+@import "./layot/block-task";
+@import "./layot/clients";
+@import "./layot/touch";
+@import "./layot/portfolio-projects";
+@import "./layot/footer";
+@import "./layot/footer-subscribe";
+
+
