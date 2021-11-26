@@ -1,25 +1,35 @@
-.logo {
-  color: var(--logo-color);
-}
 .header-logo {
-  font-family: "Raleway", sans-serif;
-  text-decoration: none;
-  @include font($fs:26px);
-  
-  line-height: 1.19;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  margin-right: 90px;
-}
-.logo-footer {
-  margin-bottom: 20px;
-}
-.web {
-  color: var(--accent-color);
-}
+  color: #000000;
 
-
-  .logos-icon {
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  .logo__item {
+    color: var(--accent-color);
   }
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+
+  .logo__item {
+    color: var(--accent-color);
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}

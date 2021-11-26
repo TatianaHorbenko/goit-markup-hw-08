@@ -1,36 +1,28 @@
-// UTILS
-@import "./utils/mixin";
-@import "./utils/variables";
-@import "./utils/visually-hidden";
-
 //BASE
 @import "./base/common";
+@import "./base/common-class";
 
 //COMPONENTS
 @import "./components/container";
+@import "./components/section";
+@import "./components/social__icons";
+@import "./components/titles";
 @import "./components/logo";
-@import "./components/social";
-@import "./components/list";
-@import "./components/title";
-@import "./components/button";
 @import "./components/backdrop";
-@import "./components/modal-form";
-@import "./components/modal-button";
 @import "./components/modal";
-
+@import "./components/modal__form";
+@import "./components/mobile__menu";
 
 //LAYOUT
-@import"./layot/activity";
-@import "./layot/features";
-@import "./layot/header";
-@import "./layot/hero";
-@import "./layot/about";
-@import "./layot/team";
-@import "./layot/block-task";
-@import "./layot/clients";
-@import "./layot/touch";
-@import "./layot/portfolio-projects";
-@import "./layot/footer";
-@import "./layot/footer-subscribe";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/tasks";
+@import "./layout/about";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/portfolio";
+@import "./layout/footer";
 
-
+//UTILS
+@import "./utils/variables";
+@import "./utils/visually-hidden";

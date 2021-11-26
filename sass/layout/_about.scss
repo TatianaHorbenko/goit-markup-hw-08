@@ -1,0 +1,41 @@
+.about {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    display: block;
+    padding-bottom: 94px;
+  }
+}
+
+.about__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__item {
+  position: relative;
+}
+
+.about__label {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+}
+
+.about__text {
+  background: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
