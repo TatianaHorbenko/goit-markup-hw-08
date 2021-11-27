@@ -64,5 +64,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  fill: "currentColor";
+  fill: var(--primary-white-color);
+}
+.current{
+  color: (--accent-color);
 }

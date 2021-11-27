@@ -162,7 +162,11 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  fill: #ffffff;
+  fill: var(--primary-white-color);
+}
+
+.current {
+  color: --accent-color;
 }
 
 .about__title,
@@ -585,7 +589,7 @@ ul {
   color: var(--header-black-color);
 }
 
-.mobile__nav-link-current {
+.current {
   color: var(--accent-color);
 }
 
@@ -679,7 +683,7 @@ ul {
   }
 }
 
-.link.header-nav__link--current {
+.link.current {
   color: var(--accent-color);
 }
 
@@ -708,7 +712,7 @@ ul {
   color: var(--accent-color);
 }
 
-.header-nav__link--current.header-nav__link::after {
+.current.header-nav__link::after {
   position: absolute;
   content: "";
   display: block;

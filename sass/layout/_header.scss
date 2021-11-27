@@ -27,7 +27,7 @@
   }
 }
 
-.link.header-nav__link--current {
+.link.current {
   color: var(--accent-color);
 }
 
@@ -56,7 +56,7 @@
   }
 }
 
-.header-nav__link--current.header-nav__link::after {
+.current.header-nav__link::after {
   position: absolute;
   content: "";
   display: block;
